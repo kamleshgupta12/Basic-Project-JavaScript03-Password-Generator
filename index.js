@@ -185,10 +185,3 @@ genPass.addEventListener('click', () => {
     calculateStrength();
 
 });
-
-
-
-
-
-//  
-

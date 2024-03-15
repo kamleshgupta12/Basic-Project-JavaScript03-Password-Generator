@@ -28,13 +28,18 @@
 .password-length{
     display: flex;
     justify-content: space-between; 
+    margin-top: 1rem;
 }
 .content-box{
     display: flex;
     flex-direction: column;
     justify-content: center; 
     gap: 5px;
-
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
 }
 #genBtn{
 background-color: green;
@@ -64,4 +69,10 @@ font-weight: 600;
     color: white;
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
+}
+#genBtn:hover{
+    background-color:rgb(25, 106, 25) ;
+}
+#copyBtn:hover{
+    background-color: rgb(25, 106, 25);
 }
